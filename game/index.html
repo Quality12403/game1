@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS AR Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <!-- Camera Feed -->
+    <video id="camera-feed" autoplay playsinline></video>
+
+    <!-- Collectible Item -->
+    <div class="collectible" id="collectible-item"></div>
+
+    <!-- Score Board -->
+    <div class="score-board">
+        Score: <span id="score">0</span>
+    </div>
+
+    <!-- Location Information -->
+    <div class="location-info">
+        Latitude: <span id="latitude">0</span>, Longitude: <span id="longitude">0</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
